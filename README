@@ -1,0 +1,9 @@
+ice4pi is an open hardware platform for FPGA
+development published by Lightside Instruments AS.
+
+The initial release ice4pi-1.0 includes schematic and PCB
+design files for KiCAD.
+
+The project is published by Lightside Instruments AS
+under TAPR Open Hardware License. Read the LICENSE file
+for details.
