@@ -11,3 +11,8 @@ To install all necessary packages and synthesize and program ice4pi:
  cd arachne-pnr-0.1+20180909git840bdfd-1.1/
  dpkg-buildpackage -us -uc -j2
  sudo dpkg -i ../arachne*.deb
+
+3. Building and installing the flashrom tool
+ git clone https://www.flashrom.org/git/flashrom.git
+ cd flashrom
+ make CONFIG_ENABLE_LIBPCI_PROGRAMMERS=no CONFIG_ENABLE_LIBUSB0_PROGRAMMERS=no CONFIG_ENABLE_LIBUSB1_PROGRAMMERS=no install
