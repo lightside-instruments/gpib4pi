@@ -1,0 +1,13 @@
+To install all necessary packages and synthesize and program ice4pi:
+
+ sudo apt-get install yosys fpga-icestorm arachne-pnr
+ make
+
+1. Make sure your Pi has SPI enabled
+
+2. There is a problem in arachne-pnr reporting bogus dependency conflict that can be worked around:
+
+ apt-get source arachne-pnr
+ cd arachne-pnr-0.1+20180909git840bdfd-1.1/
+ dpkg-buildpackage -us -uc -j2
+ sudo dpkg -i ../arachne*.deb
