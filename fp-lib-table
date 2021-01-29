@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ice4pi)(type KiCad)(uri ${KIPRJMOD}/ice4pi.pretty)(options "")(descr ""))
+)

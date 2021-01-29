@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:ice4pi-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1526,10 +1525,6 @@ Text GLabel 5850 4400 0    50   Input ~ 0
 RS232_Tx_TTL
 Text GLabel 5850 4300 0    50   Output ~ 0
 RS232_Rx_TTL
-Text GLabel 7450 4600 2    50   BiDi ~ 0
-PIO0_02
-Text GLabel 7450 4700 2    50   BiDi ~ 0
-PIO0_03
 Text GLabel 5850 5600 0    50   Output ~ 0
 iCE_CREST
 $Comp
@@ -1765,4 +1760,68 @@ Text GLabel 5850 5700 0    50   Input ~ 0
 iCE_CDONE
 Text GLabel 7450 5400 2    50   Output ~ 0
 iCE_SS_B
+Text GLabel 5850 5200 0    50   BiDi ~ 0
+PIO0_02
+Text GLabel 5850 5100 0    50   BiDi ~ 0
+PIO0_04
+Text GLabel 5850 5800 0    50   BiDi ~ 0
+PIO0_03
+Text GLabel 5850 4600 0    50   BiDi ~ 0
+PIO0_06
+Text GLabel 5850 5000 0    50   BiDi ~ 0
+PIO0_05
+Text GLabel 7450 5100 2    50   BiDi ~ 0
+PIO0_08
+Text GLabel 7450 5000 2    50   BiDi ~ 0
+PIO0_10
+Text GLabel 7450 4400 2    50   BiDi ~ 0
+PIO0_12
+Text GLabel 7450 4300 2    50   BiDi ~ 0
+PIO0_11
+Text GLabel 7450 5300 2    50   BiDi ~ 0
+PIO0_13
+Text GLabel 950  1950 0    50   BiDi ~ 0
+PIO0_10
+Text GLabel 950  2050 0    50   BiDi ~ 0
+PIO0_11
+Text GLabel 950  2150 0    50   BiDi ~ 0
+PIO0_12
+Text GLabel 950  2250 0    50   BiDi ~ 0
+PIO0_13
+Text GLabel 7450 6000 2    50   BiDi ~ 0
+PIO0_07
+Text GLabel 7450 5900 2    50   BiDi ~ 0
+PIO0_09
+Text GLabel 950  2350 0    50   BiDi ~ 0
+PIO0_14
+Text GLabel 950  2450 0    50   BiDi ~ 0
+PIO0_15
+Text GLabel 950  2550 0    50   BiDi ~ 0
+PIO0_16
+Text GLabel 950  2650 0    50   BiDi ~ 0
+PIO0_17
+Text GLabel 950  2750 0    50   BiDi ~ 0
+PIO0_18
+Text GLabel 950  2850 0    50   BiDi ~ 0
+PIO0_19
+Text GLabel 950  2950 0    50   BiDi ~ 0
+PIO0_20
+Text GLabel 5850 5400 0    50   BiDi ~ 0
+PIO0_14
+Text GLabel 5850 5500 0    50   BiDi ~ 0
+PIO0_15
+Text GLabel 5850 5900 0    50   BiDi ~ 0
+PIO0_16
+Text GLabel 5850 4800 0    50   BiDi ~ 0
+PIO0_17
+Text GLabel 5850 4700 0    50   BiDi ~ 0
+PIO0_18
+Text GLabel 7450 4900 2    50   BiDi ~ 0
+PIO0_19
+Text GLabel 7450 4700 2    50   BiDi ~ 0
+PIO0_21
+Text GLabel 7450 4600 2    50   BiDi ~ 0
+PIO0_20
+Text GLabel 950  3050 0    50   BiDi ~ 0
+PIO0_21
 $EndSCHEMATC

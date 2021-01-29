@@ -1,3 +1,9 @@
+ice4pi (1.2) buster; urgency=medium
+
+  * Schematic: Connected all remaining pins from the Rapberry Pi header to Top bank of ice40
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Thu, 28 Jan 2021 20:12:31 +0100
+
 ice4pi (1.1) buster; urgency=medium
 
   * Schematic: Fixed footprint bugs
