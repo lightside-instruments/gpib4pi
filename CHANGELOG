@@ -1,3 +1,9 @@
+gpib4pi (1.0) buster; urgency=medium
+
+  * Connected the GPIB signals directly to the 40 pin header pin compatible with linux-gpib gpib_bitbang driver
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Sat, 05 Feb 2022 17:30:48 +0100
+
 ice4pi-gpib (1.0) stable; urgency=medium
 
   * Added GPIB connector and bus drivers and expanded to regular sized Pi hat

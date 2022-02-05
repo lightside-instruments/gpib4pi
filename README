@@ -1,7 +1,7 @@
-ice4pi-gpib is an open hardware platform for FPGA
-development published by Lightside Instruments AS.
+gpib4pi is an open hardware platform for 
+published by Lightside Instruments AS.
 
-The initial release ice4pi-gpib-1.0 includes schematic and PCB
+The initial release gpib4pi-1.0 includes schematic and PCB
 design files for KiCAD.
 
 The project is published by Lightside Instruments AS
