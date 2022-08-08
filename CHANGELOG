@@ -1,33 +1,13 @@
+gpib4pi (1.1) bullseye; urgency=medium
+
+  * Major bug fix: Connected missing GPIB_EOI signal connection from SN75161 to the Raspberry Pi GPIO9
+  * Added auxiliary axis grid origin to the PCB
+  * Cleanup of schematics references and values positions for improved readability 
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Tue, 09 Aug 2022 00:15:56 +0200
+
 gpib4pi (1.0) buster; urgency=medium
 
   * Connected the GPIB signals directly to the 40 pin header pin compatible with linux-gpib gpib_bitbang driver
 
  -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Sat, 05 Feb 2022 17:30:48 +0100
-
-ice4pi-gpib (1.0) stable; urgency=medium
-
-  * Added GPIB connector and bus drivers and expanded to regular sized Pi hat
-
- -- Vladimir Vassilev <vladimir@lightside-insturments.com>  Fri, 04 Feb 2022 17:34:12 +0100
-
-ice4pi (1.2) buster; urgency=medium
-
-  * Schematic: Connected all remaining pins from the Rapberry Pi header to Top bank of ice40
-
- -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Thu, 28 Jan 2021 20:12:31 +0100
-
-ice4pi (1.1) buster; urgency=medium
-
-  * Schematic: Fixed footprint bugs
-  * Layout: Added direction indicator for component footprint
-  * Layout: Flipped the 2x20 Pi Hat connector to the Back layer and replaced the header footprint with socket
-  * Layout: Removed unnecessary track
-  * Added example installing all necessary Debian packages and synthesizing and loading example code
-
- -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Fri, 14 Feb 2020 02:10:13 +0100
-
-ice4pi (1.0) buster; urgency=medium
-
-  * Initial version
-
- -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Tue, 28 Jan 2020 01:33:13 +0100
