@@ -1,3 +1,10 @@
+gpib4pi (2.0) jammy; urgency=medium
+
+  * Connected the GPIO_REN pin to gpio27 (pin 13) instead of gpio0 (pin 27)
+  * Fixed silkscreen labels for D8 and R3 overlapping and D7 not on board
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Tue, 14 Feb 2023 16:08:29 +0100
+
 gpib4pi (1.2) jammy; urgency=medium
 
   * Updated to Kicad 6

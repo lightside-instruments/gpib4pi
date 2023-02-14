@@ -367,7 +367,6 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
-          "+3V3",
           "+5V",
           "GND"
         ],
@@ -416,7 +415,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "Pcbnew",
+    "net_format_name": "KiCad",
     "ngspice": {
       "fix_include_paths": true,
       "fix_passive_vals": false,
