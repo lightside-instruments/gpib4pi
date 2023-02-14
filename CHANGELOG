@@ -1,3 +1,9 @@
+gpib4pi (1.2) jammy; urgency=medium
+
+  * Updated to Kicad 6
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Tue, 14 Feb 2023 15:17:59 +0100
+
 gpib4pi (1.1) bullseye; urgency=medium
 
   * Major bug fix: Connected missing GPIB_EOI signal connection from SN75161 to the Raspberry Pi GPIO9
