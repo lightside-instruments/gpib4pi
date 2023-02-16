@@ -1,3 +1,10 @@
+gpib4pi (2.1) UNRELEASED; urgency=medium
+
+  * pcb: Restored logo and locked it
+  * pcb: Updated 3D model field for the 2x20 connector now with longer 11 mm pins
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Thu, 16 Feb 2023 23:46:50 +0100
+
 gpib4pi (2.0) jammy; urgency=medium
 
   * Connected the GPIO_REN pin to gpio27 (pin 13) instead of gpio0 (pin 27)

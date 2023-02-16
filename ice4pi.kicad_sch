@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "gpib4pi-2.0")
+    (title "gpib4pi-2.1")
     (company "Lightside Instruments AS")
   )
 
