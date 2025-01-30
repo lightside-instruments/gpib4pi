@@ -1,4 +1,11 @@
-gpib4pi (2.1) UNRELEASED; urgency=medium
+gpib4pi (2.2-experimental-pullup) UNRELEASED; urgency=medium
+
+  * Added 10K ohm pull-up resistors on all 16 terminal signals (sn74* -> pi). Users producing the board themselves
+    have reported some fake chips do not have 3-state drivers on the terminal side but passive pullup instead.
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Thu, 30 Jan 2025 00:37:57 +0100
+
+gpib4pi (2.1) jammy; urgency=medium
 
   * pcb: Restored logo and locked it
   * pcb: Updated 3D model field for the 2x20 connector now with longer 11 mm pins
